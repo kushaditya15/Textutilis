@@ -27,6 +27,31 @@
 .App-link {
   color: #61dafb;
 }
+textarea::placeholder {
+  color: #6c757d; /* for light mode */
+  opacity: 1;
+}
+body.dark-mode textarea::placeholder {
+  color: #bfc9d4; /* for dark mode */
+}
+.custom-alert {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: translateY(-20px);
+  margin-bottom: 10px;
+}
+
+.custom-alert.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.custom-alert.hide {
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
+}
+
 
 @keyframes App-logo-spin {
   from {
