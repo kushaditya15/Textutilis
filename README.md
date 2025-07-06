@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📝 TextUtils - Text Manipulation React App
 
 TextUtils is a simple yet powerful React-based utility web app to analyze and manipulate your text quickly and efficiently.
@@ -80,4 +81,7 @@ This project is open-source and free to use.
 ---
 
 Made with ❤️ by [Aditya Kushwaha](mailto\:adityakushwaha1550@gmail.com)
+=======
+# Textutilis
+>>>>>>> 70b1427df2290e5d6b7eab78c9d494e9a2f94f0d
 
